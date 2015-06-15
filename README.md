@@ -3,7 +3,12 @@
 <DOCTYPE html>
 
   <head>
-    <title> <center> Alles Angelina </title> </center>
+
+  <link rel="stylesheet" type="text/css" href="allesangelina.css">
+<!-- This linked README.md to allesangelina.css -->
+
+    <title id="alles"> Alles Angelina </title>
+    
   </head>
 
   <body>
