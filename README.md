@@ -7,8 +7,8 @@
   <link rel="stylesheet" type="text/css" href="allesangelina.css">
 <!-- This linked README.md to allesangelina.css -->
 
-    <title id="alles"> Alles Angelina </title>
-    
+    <title> Alles Angelina </title>
+
   </head>
 
   <body>
