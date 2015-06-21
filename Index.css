@@ -21,6 +21,9 @@ ul, body {
     width:760px;
 
     margin:0 auto;
+
+    display: inline;
+/* this should make the text in the nav. bar horizontal */
 }
 
  ul li{
