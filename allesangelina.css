@@ -16,3 +16,8 @@ a {
  }
 /* block - makes the whole link area clickable ( and not just the text) */
 /* block also allowed for the width of the links to be specificed to 60px */
+
+a:hover, a:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
