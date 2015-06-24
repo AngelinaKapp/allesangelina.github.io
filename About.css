@@ -42,7 +42,8 @@ a {
 }
 
 a:hover, a:active {
-    color: rgb(130, 220, 39);
+  color: rgb(130, 220, 39);
+    text-decoration: overline;
 }
 
 #header {

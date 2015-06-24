@@ -40,8 +40,8 @@ a {
 }
 
 a:hover, a:active {
-    background-color: rgb(255, 255, 255);
     color: rgb(130, 220, 39);
+      text-decoration: overline;
 }
 
 #header {
@@ -57,21 +57,18 @@ a:hover, a:active {
 		  list-style:none;
 }
 
-h1, p {
+p {
 	    margin-right: 340px;
       margin-left: 340px;
 	    margin-top: 25px;
 	    margin-bottom: 25px;
 	    font-family:Verdana;
-}
-
-p {
-	line-height: 200%;
-	/* the previous creates the height of the lines */
-	letter-spacing: 0px;
-	/*  the previous creates the spacing between the letters */
-	word-spacing: 3px;
-	/*  the previous creates the spacing between the words */
+      line-height: 200%;
+/* the previous creates the height of the lines */
+      letter-spacing: 0px;
+/*  the previous creates the spacing between the letters */
+      word-spacing: 3px;
+/*  the previous creates the spacing between the words */
 	}
 
 #Home{
