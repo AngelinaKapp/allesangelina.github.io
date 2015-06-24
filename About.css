@@ -12,9 +12,7 @@ ul, body {
  /* float allows block elements to slide next to each other */
      font-family: Verdana;
 /* This defines the font in the navagation bar*/
-    font-weight:bold;
-/*this cahnges the hight of the text */
-    height:3.2em;
+    height:4em;
 /*this changes the width of the text */
     list-style:none;
 
@@ -23,7 +21,9 @@ ul, body {
     margin:0 auto;
 
     display: inline;
-/* this should make the text in the nav. bar horizontal */ 
+/* this should make the text in the nav. bar horizontal */
+
+    color: black;
 }
 
  ul li{
@@ -35,15 +35,18 @@ a {
 /* block - makes the whole link area clickable ( and not just the text) */
     width: 60px;
 /* block also allowed for the width of the links to be specificed to 60px */
+    color: rgb(44, 39, 46);
+/* This is the color of the text that isn't hovered over or clicked */
+    text-decoration: none;
+/* This removed the underline on all of the items in the nav. bar */
 }
 
 a:hover, a:active {
-    background-color: rgb(255, 255, 255);
-    color: black;
+    color: rgb(130, 220, 39);
 }
 
 #header {
-          background:blue;
+          background:rgb(233, 233, 233);
 /* "blue" is the color of the navagation bar */
 	        margin:0 0 30px;
 }
@@ -73,7 +76,8 @@ p {
 	}
 
 #About{
-	color: black;
+	color: green;
+  text-decoration: overline;
 }
 
 	/* CSS Document */
