@@ -1,32 +1,33 @@
 @charset "utf-8";
 
-ul, body {
+nav div{display: inline-block;}
+
+nav, body {
      list-style-type: none;
      margin: 0;
      padding: 0;
  }
  /* This removed the bullets and the margins and padding from the nav. list*/
 
- li {
-     float: left;
- /* float allows block elements to slide next to each other */
+ nav div {
      font-family: Verdana;
 /* This defines the font in the navagation bar*/
-    height:4em;
-/*this changes the width of the text */
+    height: 25px;
+/* this changes the height of the nav bar */
+
     list-style:none;
 
-    width:760px;
+   width:30px;
+/* This defines how far apart each section is spaced */
 
     margin:0 auto;
 
-    display: inline;
-/* this should make the text in the nav. bar horizontal */
-}
+    padding-top: 22px;
 
- ul li{
- 	padding: 10px;
- }
+    padding-bottom: 18px;
+
+    padding-left: 230px;
+}
 
 a {
     display: block;
