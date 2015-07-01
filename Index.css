@@ -10,44 +10,42 @@ nav, body {
  /* This removed the bullets and the margins and padding from the nav. list*/
 
  nav div {
-     font-family: Verdana;
+   font-family: Verdana;
 /* This defines the font in the navagation bar*/
-    height: 25px;
+  height: 25px;
 /* this changes the height of the nav bar */
 
-    list-style:none;
+  list-style:none;
 
-   width:30px;
-/* This defines how far apart each section is spaced */
+  margin:0 auto;
 
-    margin:0 auto;
+  padding-top: 22px;
 
-    padding-top: 22px;
+  padding-bottom: 18px;
 
-    padding-bottom: 18px;
-
-    padding-left: 230px;
+  padding-left: 250px;
 }
+
 
 a {
     display: block;
 /* block - makes the whole link area clickable ( and not just the text) */
-    width: 60px;
+    width: 3px;
 /* block also allowed for the width of the links to be specificed to 60px */
-    color: rgb(44, 39, 46);
+    color: rgb(47, 39, 32);
 /* This is the color of the text that isn't hovered over or clicked */
     text-decoration: none;
 /* This removed the underline on all of the items in the nav. bar */
 }
 
 a:hover, a:active {
-    color: rgb(130, 220, 39);
-      text-decoration: overline;
+    color: rgb(166,199,5);
+    text-decoration: overline;
 }
 
 #header {
-          background:rgb(233, 233, 233);
-/* "blue" is the color of the navagation bar */
+          background:white;
+/* grey is the color of the navagation bar */
 	        margin:0 0 30px;
 }
 
@@ -70,10 +68,15 @@ p {
 /*  the previous creates the spacing between the letters */
       word-spacing: 3px;
 /*  the previous creates the spacing between the words */
+      size: 50px;
 	}
 
+  p.oblique {
+      font-style: oblique;
+  }
+
 #Home{
-	color: green;
+	color: rgb(32,158,85);
   text-decoration: overline;
 }
 
