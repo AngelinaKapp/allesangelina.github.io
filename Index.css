@@ -4,26 +4,22 @@ nav div{display: inline-block;}
 
 nav, body {
      list-style-type: none;
-     margin: 0;
-     padding: 0;
  }
  /* This removed the bullets and the margins and padding from the nav. list*/
 
  nav div {
    font-family: Verdana;
 /* This defines the font in the navagation bar*/
-  height: 25px;
+  height: 2px;
 /* this changes the height of the nav bar */
 
   list-style:none;
 
-  margin:0 auto;
-
   padding-top: 22px;
 
-  padding-bottom: 18px;
+  padding-bottom: 8px;
 
-  padding-left: 250px;
+  padding-left: 600px;
 }
 
 
@@ -54,12 +50,13 @@ a:hover, a:active {
 		  width:760px;
 		  margin:0 auto;
 		  list-style:none;
+      float: right;
 }
 
 p {
-	    margin-right: 340px;
+	   margin-right: 340px;
       margin-left: 340px;
-	    margin-top: 25px;
+	     margin-top: 25px;
 	    margin-bottom: 25px;
 	    font-family:Verdana;
       line-height: 200%;
