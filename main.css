@@ -1,0 +1,83 @@
+body, nav {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  /* This moves all of the nav buttons to the right */
+  float: right;
+  /* This removed the bullets from the nav list */
+  list-style-type: none;
+}
+
+ nav div {
+   display: inline-block;
+   /* This defines the font in the navigation bar*/
+   font-family: Verdana;
+   list-style: none;
+   margin: 0 auto;
+   padding-right: 100px;
+}
+
+a {
+  /* block - makes the whole link area clickable (and not just the text) */
+  display: block;
+  /* This is the color of the text that isn't hovered over or clicked */
+  color: rgb(47, 39, 32);
+  /* This removed the underline on all of the items in the nav. bar */
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: rgb(166,199,5);
+  text-decoration: overline;
+}
+
+#header {
+  background: white;
+  /* grey is the color of the navigation bar */
+  margin: 0 0 30px;
+}
+
+#header img {
+  /* This floats the logo image to the left */
+  float: left;
+  padding-left: 80px;
+}
+
+p {
+  font-family:'Lora', serif;
+  /* creates the height of the lines */
+  line-height: 150%;
+  /* creates the spacing between the letters */
+  padding-left: 80px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-right: 60px;
+  background-color: rgb(206, 230, 206);
+  width: 800px;
+  border: 200px solid white;
+}
+
+#opening {font-family: 'Lora', serif; font-size: 30px;
+          line-height: 150%
+        }
+
+#profile {    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);}
+
+#entries {font-family: 'Lora', serif;
+       font-size: 30px;
+       line-height: 150%;
+       padding-top: 20px;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+
+.active {
+  color: rgb(32,158,85);
+  text-decoration: overline;
+}
