@@ -19,7 +19,7 @@ nav {
    padding-right: 100px;
 }
 
-a {
+#nav {
   /* block - makes the whole link area clickable (and not just the text) */
   display: block;
   /* This is the color of the text that isn't hovered over or clicked */
@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:active {
+#nav:hover, #nav:active {
   color: rgb(166,199,5);
   text-decoration: overline;
 }
@@ -51,8 +51,8 @@ p {
   line-height: 150%;
   /* creates the spacing between the letters */
   padding-left: 80px;
-  padding-bottom: 30px;
-  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-top: 45px;
   padding-right: 60px;
   background-color: rgb(206, 230, 206);
   width: 800px;
@@ -60,18 +60,24 @@ p {
 }
 
 #opening {font-family: 'Lora', serif; font-size: 30px;
-          line-height: 150%
+          line-height: 150%;
         }
 
-#profile {    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg);}
+#line-through {
+    text-decoration: line-through;
+}
+
+#profile {-ms-transform: rotate(90deg); /* IE 9 */
+          -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+          transform: rotate(90deg);
+          padding-top: 25px;
+    }
 
 #entries {font-family: 'Lora', serif;
        font-size: 30px;
        line-height: 150%;
        padding-top: 20px;
-}
+     }
 
 p.oblique {
   font-style: oblique;
@@ -79,5 +85,13 @@ p.oblique {
 
 .active {
   color: rgb(32,158,85);
+  text-decoration: overline;
+}
+
+.active2 {color: rgb(32,158,85);
+}
+
+.active2:hover, .active2:active {
+  color: rgb(166,199,5);
   text-decoration: overline;
 }
