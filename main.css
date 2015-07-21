@@ -67,17 +67,26 @@ p {
     text-decoration: line-through;
 }
 
-#profile {-ms-transform: rotate(90deg); /* IE 9 */
-          -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-          transform: rotate(90deg);
-          padding-top: 25px;
+#profile {
+          padding-bottom: 10px;
+          padding-left: 10px;
     }
+
+#profile2 {padding-bottom: 15px;
+padding-right: 15px;
+padding-left: 15px;
+}
 
 #entries {font-family: 'Lora', serif;
        font-size: 30px;
        line-height: 150%;
        padding-top: 20px;
      }
+
+#first {
+    padding-left: 650px;
+    color: rgb(32,158,85)
+}
 
 p.oblique {
   font-style: oblique;
