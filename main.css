@@ -83,7 +83,12 @@ padding-left: 15px;
        padding-top: 20px;
      }
 
-#first {
+#first{
+    padding-left: 650px;
+    color: rgb(32,158,85)
+}
+
+#second{
     padding-left: 650px;
     color: rgb(32,158,85)
 }
